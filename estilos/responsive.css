@@ -76,6 +76,24 @@ height: 68px;
 text-align:center;
 }
 
+#ex4 {
+line-height: 0px;
+color: transparent; font-size: 35px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#ex4:hover {
+line-height: 33px;
+color: #ffffff;
+text-align: center;
+}
+
+#ex4 img{ 
+float: below;
+margin: 0 15px;
+}
+
+
 @media screen and (max-width:1000px){
    section{
       width:100%;
