@@ -17,7 +17,11 @@ body{
 #logo a {
 	color:#F1F1F1;
 }
-
+#container{
+	width:100%;
+	min-height:800px;
+	background-color:#663311;
+}
 
 .heading{
 	font-size:24px;

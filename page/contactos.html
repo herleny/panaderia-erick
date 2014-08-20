@@ -1,97 +1,47 @@
-<!DOCTYPE html> 
-<html lang="es"> 
-<head> 
-    <!-- aqui pondremos el contenido html --> 
-	<meta charset="utf-8"> 
-	<title>Panaderia y Pasteleria Erick</title>
-   	<link rel ="shortcut icon" href ="http://static.amarillasinternet.com/pictures/200000_300000/270000_280000/277000_278000/277700_277800/277799/gallery/827660.jpg"/>
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href="estilos.css" rel ="stylesheet" type = "text/css" media ="screen">
-	<style>
-	/*Neutralidad*/
-	aside,article,footer,section,nav,header{
-	display:block;
-	margin:0;
-	padding:0;
-	}
-	p,h1,h2,h3{
-		margin:0;
-		padding:0;
-	}
-	html,body{
-		margin:50;
-		padding:15;
-	}
-	html{
-	background:#FFF;
-	}
-	body{
-	background:#F6F6CC;
-	}
-	/*etiquetas estructurales*/
-	header{
-	height:auto;
-	background:#5C4033;
-	}
-	article{
-	height:560px;
-	background:#FFFFFF;
-	width:677px;
-	float:left;
-	}
-	aside{
-	height:460px;
-	background:#F6F6CC;
-	width:672px;
-	float:right;
-	}
-	footer{
-	height:60px;
-	background:#898c70;
-	clear:both;
-	}
-	/*estilos de fuentes*/
-	h1{
-	color:#fff;
-	font=size:2.2em;
-	text-align:left;
-	}
-	h2{
-	color:#f2e3b6;
-	font=size:1.8em;
-	text-align:left;
-	}
-	p{
-	padding=left:1em;
-	padding=right:1em;
-	padding=top:1em;
-	}
-	</style>
+<!doctype html>
+<html lang="es">
+<head>
+   <meta charset="utf-8"/>
+   
+   <title>Panadería y Pastelería</title>
+   <link rel="stylesheet" href="../estilos/responsive.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+   
 </head>
- 
+
+
 <body>
-
-<div style="color: #5C4033; font-size: 36px; font-family: 'Lobster', serif; text-align: center;">Panadería y pastelería Erick</div>
-    <p>&nbsp;</p>
-
-<header>
-<nav>
-		<h2><a href ="../index.html"><font color="white">Inicio</a></font>
-		<a href ="panaderia.html"><font color="white">Panadería</a></font>
-		<a href ="pasteleria.html"><font color="white">Pastelería</a></font>
-		<a href ="catering.html"><font color="white">Catering</a></font>
-        <a href ="contactos.html"><font color="white">Contáctenos</a></font> 
-        <a href ="galeria.html"><font color="white">Galería</a></h2></font>
-		
-	</nav>		
-	</header>
-</body>
+   <section>
+      <h1>Erick</h1>
+      <h4>panadería y pastelería</h4>
+   </section>
+    
 	<section>
-			<article>
-				<b><i><h2><blockquote><font color="#B87333">Contáctenos<blockquote></h2></i></font>
-	<form name="registro" action="index2.php" method="Post" enctype="1">
+	<header class="fila">
+	  <nav>
+			<h2><a href ="../index.html"><font >Inicio</a></font>
+			<a href ="panaderia.html"><font >Panadería</a></font>
+			<a href ="pasteleria.html"><font >Pastelería</a></font>
+			<a href ="catering.html"><font >Catering</a></font>
+            <a href ="contactos.html"><font >Contátenos</a></font>
+            <a href ="galeria.html"><font >Galería</a></h2></font>
+		</nav>
+    </header>
+	</section>
+   
+   <section>
+      <article class="fila1">
+		 <p>&nbsp;</p>
+		 <p>&nbsp;</p>
+		 <p>&nbsp;</p>  
+         <h3>Contáctenos</h3>
+		 <p>&nbsp;</p>
+		          
+      </article>
+      
+         <form name="registro" action="index2.php" method="Post" enctype="1">
 		 <fieldset>
-			 <blockquote><legend>Datos</legend>
+			 <legend>Datos</legend>
 			  <label for="nombres">Nombres</label> 
 			  <input type="text" name="nombres" id="nombres" value="" />
 			  <br/>
@@ -101,21 +51,29 @@
 			  <label for="paralelo">Productos</label> 
 			  <input type="text" name="productos" id="productos" value="" />
 			  <br/>
-			  <input type="submit" name="enviar" value="Enviar" /><blockquote>
+			  <input type="submit" name="enviar" value="Enviar" />
 		 </fieldset>
 	  
 	  
 	 
 	</form> 
-			</article>	
-		
-	<section>
+      </article>
+   </section>
+   
+     <div  id="cen" >
+     <img class="p" src="../imagenes/2.jpg"> 
+	 </div>
 	
+   
+</body>
 
-																		
-<header>
-<footer>
-	<center><ADDRESS> <p>Kennedy Nueva Mza I Villa 5 frente Asilo Plaza Dañin - Guayaquil</p></ADDRESS></center>
-	<center><ADDRESS> <p>Telefonos: 042289678-046010689</p></ADDRESS></center>
-</header>
+	<footer>
+	 </br>
+	 <ADDRESS><p>Kennedy Nueva Mza I Villa 5 frente Asilo Plaza Dañin - Guayaquil</p></ADDRESS>
+	<ADDRESS><p>Telefonos: 042289678-046010689</p></ADDRESS>
+	</br>
+	</header>
+
+
+
 </html>
