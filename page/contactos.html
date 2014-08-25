@@ -9,6 +9,8 @@
 <body>
 <section>
       <h1>Erick</h1>
+	  
+
       <h4>panadería y pastelería</h4>
 </section>
 <section>
@@ -25,23 +27,54 @@
 </section>
 <section>
       <article class="fila1">
-		 <br/><br/><br/>  
+		
          <h3>Contáctenos</h3>
+		 	<div style="margin-top:0px;"><iframe width="315" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=216624217983121475471.0004e9759cd458aeabde3&amp;ie=UTF8&amp;t=m&amp;ll=-2.156126,-79.901955&amp;spn=0.003377,0.00338&amp;z=17&amp;output=embed"></iframe>
+<br /> 
 		 <br/>       
       </article>
          <form name="registro" action="index2.php" method="Post" enctype="1">
 		 <fieldset>
-			 <legend>Datos</legend>
-			  <label for="nombres">Nombres</label> 
-			  <input type="text" name="nombres" id="nombres" value=""/>
-			  <br/>
-			  <label for="apellidos">Apellidos</label> 
-			  <input type="text" name="apellidos" id="apellidos" value=""/>
-			  <br/>
-			  <label for="paralelo">Productos</label> 
-			  <input type="text" name="productos" id="productos" value=""/>
-			  <br/>
+			 </div>
+       <div id="content-inside">
+         <div id="title-inside"><img src="img/title-contacto.png" width="189" height="81" alt="contacto" /></div>
+         <div id="col-1">
+       	   <form name="miform" action="contacto.php" method="post" >
+            <div id="contenido2">
+              <div id="asterisk"><span class="bold" style="font-size:12px;">Los asteristicos indican los campos obligatorios</span></div>
+              <div class="for-box">
+                <div class="fb-1">Nombres*:</div>
+                <div class="fb-2" id="d1">
+                  <input name="txtNombres" id="txtNombres" type="text" class="fieldclass" style="border: none"/>
+                </div>
+              </div>
+              <div class="for-box">
+                <div class="fb-1">Apellidos*:</div>
+                <div class="fb-2" id="d2">
+                  <input name="txtApellidos" id="txtApellidos" type="text" class="fieldclass"style="border: none"/>
+                </div>
+              </div>
+              <div class="for-box">
+                <div class="fb-1">Teléfono celular:</div>
+                <div class="fb-2">
+                  <input name="txtCelular" id="txtCelular" type="text" class="fieldclass"style="border: none"/>
+                </div>
+              </div>
 			  <input type="submit" name="enviar" value="Enviar"/>
+			  <br/>
+			  <div class="for-box">
+                <div class="fb-1">Comentarios:</div>
+                <div class="fb-5">
+                  <div class="fb-2a"></div>
+                  <div class="fb-2b"><textarea name="txtComentarios" rows="6" class="fieldclass3" id="txtComentarios" style="border: none"></textarea></div>
+                  <div class="fb-2c"></div>
+
+</script>
+
+<div id="map"></div>
+				  
+                </div>
+              </div>
 		 </fieldset>
 		</form> 
       </article>
