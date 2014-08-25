@@ -45,14 +45,14 @@ text-shadow:3px 3px 3px white;
 
 h3{
 color: #5C4033;
-font-size: 25px;
+font-size: 30px;
 font-family: 'Lobster', serif;
 text-align: center;
 }
 
 h4{
 color: #B87333;
-font-size: 20px;
+font-size: 30px;
 font-family: 'Lobster', serif;
 text-align: center;
 }
@@ -69,8 +69,8 @@ footer{
 	color: #000;
 	}
 img.p{
-width: 80px; 
-height: 68px;
+width: 30px; 
+height: 40px;
 }
 
 #cen{
