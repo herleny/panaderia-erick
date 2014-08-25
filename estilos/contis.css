@@ -1,0 +1,34 @@
+.espan{
+font-size:12px;
+}
+
+.fb-1{
+color: #B87333;
+font-size: 15px;
+font-family: 'Lobster', serif;
+text-align: center;
+}
+
+.fieldclass{
+border: none;
+type="text";
+name="txtNombres";
+}
+
+.fieldclass1{
+type="text";
+border: none;
+name="txtApellidos"; 
+}
+
+.fieldclass2{
+type="text"; 
+border: none;
+name="txtCelular"; 
+}
+
+.fieldclass3{
+border: none;
+name="txtComentarios"; 
+}
+
