@@ -2,13 +2,15 @@
 <html lang="es">
 <head>
    <meta charset="utf-8"/>
-   
+   <title>Panadería y Pastelería</title>
    <link rel="stylesheet" href="../estilos/responsive.css"/>
+   <link rel="stylesheet" href="../estilos/contis.css"/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <section>
-      <h1><img src="../imagenes/erick.jpg" width="300" height="255" alt=""/></h1>
+      <h1>Erick</h1>
+      <h4>panadería y pastelería</h4>
 </section>
 <section>
 		<div> 
@@ -28,19 +30,44 @@
          <h3>Contáctenos</h3>
 		 <br/>       
       </article>
-         <form name="registro" action="index2.php" method="Post" enctype="1">
+         <form>
 		 <fieldset>
-			 <legend>Datos</legend>
-			  <label for="nombres">Nombres</label> 
-			  <input type="text" name="nombres" id="nombres" value=""/>
-			  <br/>
-			  <label for="apellidos">Apellidos</label> 
-			  <input type="text" name="apellidos" id="apellidos" value=""/>
-			  <br/>
-			  <label for="paralelo">Productos</label> 
-			  <input type="text" name="productos" id="productos" value=""/>
-			  <br/>
-			  <input type="submit" name="enviar" value="Enviar"/>
+			<legend>Datos</legend>
+<div>
+            <div id="asterisk">
+<span class="espan">Los asteristicos indican los campos obligatorios</span></div>
+		<br/>
+			<div class="for-box">
+                <div class="fb-1">Nombres*:</div>
+                
+                <input class="fieldclass"/>
+			</div>
+			
+	
+			<div class="for-box">
+                <div class="fb-1">Apellidos*:</div>
+                
+<input class="fieldclass1"/>
+                </div>
+			
+	
+              	<div class="for-box">
+                <div class="fb-1">Teléfono/celular:</div>
+                
+<input class="fieldclass2"/>
+                </div>
+              	
+		<br/>
+			<div class="for-box">
+                <div class="fb-1">Comentarios:</div>
+                
+<textarea class="fieldclass3"></textarea>
+			</div>
+</div>
+		<br/>
+<input type="submit" name="enviar" value="Enviar"/>
+                </div>
+
 		 </fieldset>
 		</form> 
       </article>
